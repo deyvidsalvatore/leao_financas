@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "904352386798",
+    "project_id": "leaofinancas-cae23",
+    "storage_bucket": "leaofinancas-cae23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904352386798:android:d12674c35e16ddbe6eedff",
+        "android_client_info": {
+          "package_name": "com.squadtrinity.leaofinancas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904352386798-5qk3fjmb5104fr3t46ivsncdgu2q6pk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.squadtrinity.leaofinancas",
+            "certificate_hash": "67dff227ade193c998551af57bfb455edffef8d0"
+          }
+        },
+        {
+          "client_id": "904352386798-dgjiptn5130q09q2ks97rjhmqsder52n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0JpejRP7pU-Y3H_browVQXn--pQgxwn0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904352386798-dgjiptn5130q09q2ks97rjhmqsder52n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
