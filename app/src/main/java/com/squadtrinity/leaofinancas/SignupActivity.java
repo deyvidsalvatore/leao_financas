@@ -59,14 +59,14 @@ public class SignupActivity extends AppCompatActivity {
                 String passwordString = password.getText().toString().trim();
 
                 if (TextUtils.isEmpty(emailString)){
-                    email.setError("email is required");
+                    email.setError("O e-mail é obrigatório");
                     return;
                 }
                 if (TextUtils.isEmpty(passwordString)){
-                    password.setError("Password required");
+                    password.setError("A senha é obrigatória");
                     return;
                 }else {
-                    loader.setMessage("Registration in progress");
+                    loader.setMessage("Cadastrando usuário...");
                     loader.setCanceledOnTouchOutside(false);
                     loader.show();
                     mAuth.createUserWithEmailAndPassword(emailString,passwordString).addOnCompleteListener(new OnCompleteListener<AuthResult>() {

@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">LeaoFinancas</string>
     <string name="leao_financas">Leão Finanças</string>
+
+    <!-- Activity Budget -->
+    <string-array name="items">
+        <item>Selecione algum item</item>
+        <item>Transporte</item>
+        <item>Comida</item>
+        <item>Entretenimento</item>
+        <item>Educação</item>
+        <item>Caridade</item>
+        <item>Vestuário</item>
+        <item>Saúde</item>
+        <item>Pessoal</item>
+        <item>Outro</item>
+    </string-array>
 </resources>
